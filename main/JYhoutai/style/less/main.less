@@ -1,0 +1,155 @@
+html, body {
+  width: 100%;
+  color: #777;
+  font-size: 13px;
+}
+
+ul {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  //color:#fff;
+}
+
+#JY {
+  width: 100%;
+}
+
+.JY-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  text-decoration: none !important;
+}
+
+.navbar-header {
+  margin-top: 10px;
+}
+
+// 修改导航背景颜色
+.navbar-inverse {
+  background: #1057b3;
+  border-radius: 0px;
+  border: none;
+  a {
+    color: #fff;
+  }
+  span {
+    color: #fff;
+  }
+  .navbar-nav > li > a {
+    color: #fff;
+    text-align: center;
+  }
+  .navbar-nav > li > a:hover {
+    background: #fb6e52;
+  }
+}
+
+// 导航菜单下拉选中颜色
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background: #fb6e52;
+}
+
+.dropdown-menu > li > a:hover {
+  background: #fb6e52;
+  color: #fff;
+}
+
+.navbar-form {
+  margin-top: 12px;
+}
+
+.navSearch input {
+  border-radius: 4px 0 0 4px;
+  height: 27px;
+}
+
+.navSearchBtn {
+  border-radius: 0 4px 4px 0;
+  margin-left: -4px;
+  font-size: 12px;
+  padding: 4px 10px;
+  position: relative;
+  top: 1px;
+}
+
+// 左侧菜单
+#menu ul {
+  padding: 0;
+  margin-bottom: 20px;
+  // 字体图标
+  .glyphicon {
+    margin-right: 10px;
+  }
+  li {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e7e7e7;
+    a {
+      padding: 15px;
+      color: #333;
+      display: block;
+      font-size: 12px;
+    }
+  }
+  li:hover {
+    a {
+      color: #fb6e52;
+    }
+  }
+  li:first-of-type {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  li:last-of-type {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom: none;
+  }
+}
+
+// 菜单选中
+.menuActive {
+  background: #fb6e52 !important;
+  a {
+    color: #fff !important;
+  }
+}
+
+// 内容部分
+.guanli {
+  margin-bottom: 20px;
+  .btn {
+    margin-right: 20px;
+  }
+  .btn-my {
+    background: #1057b3;
+    color: #fff;
+    font-size: 12px;
+  }
+  .btn-my:hover {
+
+  }
+}
+
+
+#main {
+  table {
+    td {
+      line-height: 2.4;
+    }
+  }
+}
+
+// 分页选中背景
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #1057b3;
+  border-color: #1057b3;
+}

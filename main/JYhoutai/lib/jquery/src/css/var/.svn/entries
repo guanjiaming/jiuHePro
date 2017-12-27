@@ -1,0 +1,70 @@
+10
+
+dir
+0
+http://169.254.123.172:81/svn/p2p/Team1/trunk/Code/lib/jquery/src/css/var
+http://169.254.123.172:81/svn/p2p
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+cc2b7638-5017-b24c-a014-9a95945b4079
+
+rnumnonpx.js
+file
+
+
+
+add
+
+cssExpand.js
+file
+
+
+
+add
+
+isHiddenWithinTree.js
+file
+
+
+
+add
+
+swap.js
+file
+
+
+
+add
+
+rmargin.js
+file
+
+
+
+add
+
+getStyles.js
+file
+
+
+
+add
+

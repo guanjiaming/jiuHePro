@@ -1,0 +1,77 @@
+10
+
+dir
+0
+http://169.254.123.172:81/svn/p2p/Team1/trunk/Code/lib/jquery/dist
+http://169.254.123.172:81/svn/p2p
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+cc2b7638-5017-b24c-a014-9a95945b4079
+
+jquery.slim.min.js
+file
+
+
+
+add
+
+jquery.slim.min.map
+file
+
+
+
+add
+
+core.js
+file
+
+
+
+add
+
+jquery.js
+file
+
+
+
+add
+
+jquery.min.js
+file
+
+
+
+add
+
+jquery.min.map
+file
+
+
+
+add
+
+jquery.slim.js
+file
+
+
+
+add
+

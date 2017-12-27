@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>江油后台管理系统</title>
+    <!-- bootstrap的CSS -->
+    <link type="text/css" href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 时间选择css -->
+    <link rel="stylesheet" href="lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+    <!-- 富文本的css -->
+    <link rel="stylesheet" type="text/css" href="lib/styles/simditor.css" />
+    <!-- 自己的css -->
+    <link rel="stylesheet" href="style/css/main.css">
+</head>
+<body>
+
+<div id="JY">
+    <!-- 导航 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                        <a class="JY-title" href="#">用户管理界面</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                        </ul>
+                        <!-- 搜索 -->
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group navSearch">
+                                <input type="text" class="form-control" placeholder="家纺">
+                            </div>
+                            <button type="button" class="btn btn-default navSearchBtn">搜索</button>
+                        </form>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">消息</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">用户名 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">描述</a></li>
+                                    <li><a href="#">编辑</a></li>
+                                    <li><a href="#">账户设置</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">退出</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- 中间部分 -->
+    <div id="JY-content">
+        <div class="container">
+            <div class="row">
+                <!-- 菜单 -->
+                <div id="sub" class="col-md-3 sub">
+                    <div id="menu" class="menu">
+                        <ul class="fore1">
+                            <li class="menuActive"><a href=""><i class=" glyphicon glyphicon-file"></i>商品管理</a></li>
+                        </ul>
+                        <ul class="fore2">
+                            <li><a href=""><i class="glyphicon glyphicon-signal"></i>订单管理</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-bookmark"></i>订单报关</a></li>
+                        </ul>
+                        <ul class="fore3">
+                            <li><a href=""><i class="glyphicon glyphicon-send"></i>完善企业信息</a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-bell"></i>站内消息<span
+                                    class="badge pull-right">4</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 右侧内容 -->
+                <div id="main" class="col-md-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">商品列表</div>
+                        <div class="panel-body">
+
+                            <!-- 功能 -->
+                            <div class="guanli">
+                                <button type="button" class="btn btn-default btn-my">管理数据</button>
+                                <button type="button" class="btn btn-default btn-my">添加数据</button>
+                            </div>
+
+                            <!-- 表单内容 -->
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="title" class="col-sm-2 control-label">标题：</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="title">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="file" class="col-sm-2 control-label">缩略图：</label>
+                                    <div class="col-sm-8">
+                                        <input type="file" id="file">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">是否推荐：</label>
+                                    <div class="col-sm-8">
+
+                                        <label class="radio-inline">
+                                            <input type="radio" name="isRecommend" id="inlineRadio1"
+                                                   value="recommendYes" checked> 是
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="isRecommend" id="inlineRadio2"
+                                                   value="recommendNo"> 否
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">详情：</label>
+                                    <div class="col-sm-8">
+                                        <!-- 富文本 -->
+                                        <textarea class="form-control" rows="3" style="resize: none"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">日期选择：</label>
+                                    <div class="col-sm-8">
+                                        <div class='input-group date' id='JY-date'>
+                                            <input type='text' class="form-control"/>
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">摘要：</label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" rows="3" style="resize: none"></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- 重置/提交 -->
+                                <div class="form-group">
+                                    <div class="col-sm-5">
+
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <button type="button" class="btn btn-default btn-sm"
+                                                style="margin-right: 20px;">重置
+                                        </button>
+                                        <button type="button" class="btn btn-default btn-sm">提交</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 脚部 -->
+    <footer>
+
+    </footer>
+</div>
+
+<!-- jQuery  -->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-datetimepicker/moment.js"></script>
+<script src="lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="lib/CFEditor/global.js"></script>
+<script src="lib/CFEditor/main.js"></script>
+<script src="lib/CFEditor/classfoo-editor.js"></script>
+<script>
+    $(function () {
+        // 调用时间选择器
+        $('#JY-date').datetimepicker({
+            format: 'YYYY-MM-DD',
+            locale: moment.locale('zh-cn')
+        });
+    })
+
+</script>
+</body>
+</html>

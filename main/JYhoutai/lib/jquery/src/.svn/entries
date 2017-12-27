@@ -1,0 +1,273 @@
+10
+
+dir
+0
+http://169.254.123.172:81/svn/p2p/Team1/trunk/Code/lib/jquery/src
+http://169.254.123.172:81/svn/p2p
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+cc2b7638-5017-b24c-a014-9a95945b4079
+
+effects
+dir
+
+
+
+add
+
+selector-native.js
+file
+
+
+
+add
+
+wrap.js
+file
+
+
+
+add
+
+attributes
+dir
+
+
+
+add
+
+core
+dir
+
+
+
+add
+
+callbacks.js
+file
+
+
+
+add
+
+effects.js
+file
+
+
+
+add
+
+jquery.js
+file
+
+
+
+add
+
+deferred.js
+file
+
+
+
+add
+
+queue.js
+file
+
+
+
+add
+
+traversing.js
+file
+
+
+
+add
+
+manipulation
+dir
+
+
+
+add
+
+serialize.js
+file
+
+
+
+add
+
+css.js
+file
+
+
+
+add
+
+data
+dir
+
+
+
+add
+
+deprecated.js
+file
+
+
+
+add
+
+deferred
+dir
+
+
+
+add
+
+event
+dir
+
+
+
+add
+
+ajax
+dir
+
+
+
+add
+
+dimensions.js
+file
+
+
+
+add
+
+traversing
+dir
+
+
+
+add
+
+data.js
+file
+
+
+
+add
+
+queue
+dir
+
+
+
+add
+
+var
+dir
+
+
+
+add
+
+css
+dir
+
+
+
+add
+
+selector.js
+file
+
+
+
+add
+
+event.js
+file
+
+
+
+add
+
+ajax.js
+file
+
+
+
+add
+
+offset.js
+file
+
+
+
+add
+
+attributes.js
+file
+
+
+
+add
+
+core.js
+file
+
+
+
+add
+
+exports
+dir
+
+
+
+add
+
+selector-sizzle.js
+file
+
+
+
+add
+
+.eslintrc.json
+file
+
+
+
+add
+
+manipulation.js
+file
+
+
+
+add
+

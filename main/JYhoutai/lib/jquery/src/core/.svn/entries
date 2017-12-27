@@ -1,0 +1,105 @@
+10
+
+dir
+0
+http://169.254.123.172:81/svn/p2p/Team1/trunk/Code/lib/jquery/src/core
+http://169.254.123.172:81/svn/p2p
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+cc2b7638-5017-b24c-a014-9a95945b4079
+
+ready.js
+file
+
+
+
+add
+
+nodeName.js
+file
+
+
+
+add
+
+DOMEval.js
+file
+
+
+
+add
+
+stripAndCollapse.js
+file
+
+
+
+add
+
+ready-no-deferred.js
+file
+
+
+
+add
+
+support.js
+file
+
+
+
+add
+
+var
+dir
+
+
+
+add
+
+parseHTML.js
+file
+
+
+
+add
+
+access.js
+file
+
+
+
+add
+
+init.js
+file
+
+
+
+add
+
+readyException.js
+file
+
+
+
+add
+

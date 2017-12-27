@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reactTest</title>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+
+<script type="text/babel">
+    var names = ['Alice', 'Emily', 'Kate'];
+
+    // 自定义组件 首字母大写
+    var HelloMessage = React.createClass({
+        render: function () {
+            return <div>
+                Hello~ {this.props.name}
+            </div>;
+        }
+    });
+
+    var NotList = React.createClass({
+        render: function () {
+            return <ol>
+                {React.Children.map(this.props.children, function (child) {
+                    return <li>{child}</li>;
+                })}
+            </ol>
+        }
+    });
+
+    var Mytitle = React.createClass({
+        propTypes: {
+            title: React.PropTypes.string.isRequired,
+        },
+        render: function () {
+            return <h1> {this.props.title} </h1>
+        }
+    });
+
+    var MyComponent = React.createClass({
+        handleClick: function () {
+            this.refs.myTextInput.focus();
+        },
+        render: function () {
+            return (
+                <div>
+                    <input type="text" ref="myTextInput"/>
+                    <input type="text" value="Focus the text input" onClick={this.handleClick}/>
+                    <button onClick={this.handleClick}> 点我</button>
+                </div>
+            )
+        }
+    });
+
+    var Input = React.createClass({
+        getInitialState: function () {
+            return {value: "Hello"}
+        },
+        handleChange: function (event) {
+            this.setState({value: event.target.value})
+        },
+        render: function () {
+            var value = this.state.value;
+            return (
+                <div>
+                    <input type="text" value={value} onChange={this.handleChange}/>
+                    <p>{value}</p>
+                </div>
+            );
+        }
+    });
+
+    ReactDOM.render(
+        <div>
+            {names.map(function (name) {
+                return <div>Hello, {name}</div>
+            })}
+            <HelloMessage name="guan"/>
+            <NotList>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+            </NotList>
+            <Mytitle title="关"/>
+            <MyComponent></MyComponent>
+            <Input/>
+        </div>,
+        document.getElementById('example')
+    );
+
+</script>
+</body>
+</html>
