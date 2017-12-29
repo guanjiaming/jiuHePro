@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>中国文化中心</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/slide.css" rel="stylesheet" type="text/css"/>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function () {
+
+            $("#selvalue").click(function () {
+
+                if ($(".sel_key i").hasClass('rotate180')) {
+                    $(".sel_key i").removeClass("rotate180");
+                    $(".cate").slideUp();
+                } else {
+                    $(".sel_key i").addClass("rotate180");
+                    $(".cate").slideDown();
+                }
+                stopBubble(event);
+                document.onclick = function () {
+                    $(".sel_key i").removeClass("rotate180");
+                    $(".cate").slideUp();
+                    document.onclick = null;
+                }
+
+            });
+
+            $(".sel_key i").click(function () {
+                if ($(".sel_key i").hasClass('rotate180')) {
+                    $(".sel_key i").removeClass("rotate180");
+                    $(".cate").slideUp();
+                } else {
+                    $(".sel_key i").addClass("rotate180");
+                    $(".cate").slideDown();
+                }
+
+            });
+
+
+            $(".cate span").click(function () {
+
+                $("#selvalue").html($(this).html());
+                $(".sel_key i").removeClass("rotate180");
+                $(".cate").slideUp();
+
+            });
+
+            // 搜索按钮点击
+            $("#sc_btn").click(function () {
+                var keywordVal = $("#search_input").val();
+                var searchType = $("#selvalue").text();
+
+                window.location.href = "search_all.html?keyword=" + keywordVal + "&searchType=" + searchType;
+            })
+
+        });
+
+        //阻止冒泡函数
+        function stopBubble(e) {
+            if (e && e.stopPropagation) {
+                e.stopPropagation();  //w3c
+            } else {
+                window.event.cancelBubble = true; //IE
+            }
+        }
+    </script>
+    <script src="js/slider.js"></script>
+</head>
+
+<body>
+<div class="header_index">
+    <div class="container">
+        <div class="logo"><a href="#"><img src="images/logo_2.png" width="190" height="118"/></a></div>
+        <div class="favblock"><a href="login.html">登录</a> <a href="reg.html">注册</a> <a href="#">EN</a></div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="tszy.html">图书</a></li>
+                <li><a href="qikan.html">期刊</a></li>
+                <li><a href="wlzy.html">网络资源</a></li>
+                <li><a href="shipin_juhe.html">音视频</a></li>
+                <li><a href="gongkaike_juhe.html">公开课</a></li>
+                <li><a href="zhanlan.html">展览</a></li>
+                <li><a href="news.html">资讯</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="slider" style="height:450px;">
+    <!-- 代码 开始 -->
+    <div class="slide-main" id="touchMain">
+
+        <div class="slide-box" id="slideContent">
+            <div class="slide" style=" background-image:url(images/index_banner.jpg)">
+                <a stat="sslink-3" href="#" target="_blank">
+
+                </a>
+            </div>
+            <div class="slide" style=" background-image:url(images/index_banner.jpg)">
+                <a stat="sslink-1" href="#" target="_blank">
+
+                </a>
+            </div>
+            <div class="slide" style=" background-image:url(images/index_banner.jpg)">
+                <a stat="sslink-2" href="#" target="_blank">
+
+                </a>
+            </div>
+        </div>
+
+        <div class="item">
+            <a class="cur" stat="item1001" href="javascript:;"></a><a href="javascript:;" stat="item1002"></a><a
+                href="javascript:;" stat="item1003"></a>
+        </div>
+    </div>
+    <!-- 代码 结束 -->
+</div>
+<div class="searchbox">
+
+    <div class="container">
+        <div class="scpart">
+            <div class="sel_key">
+                <p id="selvalue">全部资源</p> <i class="animate"></i>
+                <div class="cate" style="padding:10px 0;">
+                    <div class="content mCustomScrollbar" style="height:300px;">
+                        <span>经典文库</span>
+                        <span>中华连环画</span>
+                        <span>文津图书奖</span>
+                        <span>阅读中国</span>
+                        <span>有声期刊</span>
+                        <span>电子期刊</span>
+                        <span>年画撷英</span>
+                        <span>经典文库</span>
+                        <span>中华连环画</span>
+                        <span>文津图书奖</span>
+                        <span>阅读中国</span>
+                        <span>有声期刊</span>
+                        <span>电子期刊</span>
+                        <span>年画撷英</span>
+                        <span>经典文库</span>
+                        <span>中华连环画</span>
+                        <span>文津图书奖</span>
+                        <span>阅读中国</span>
+                        <span>有声期刊</span>
+                        <span>电子期刊</span>
+                        <span>年画撷英</span>
+                    </div>
+                </div>
+                <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+                <script src="js/jquery.mCustomScrollbar.js"></script>
+            </div>
+            <input id="search_input" type="text" placeholder="输入关键词" name="keyword" class="search_input"/>
+        </div>
+        <input id="sc_btn" type="submit" class="sc_btn"/>
+    </div>
+</div>
+<div class="main_index">
+    <div class="container">
+        <div class="box_item">
+            <div class="block_01 hvstyle">
+                <img src="images/index_p.jpg"/>
+                <a href="shipin_juhe.html">Audio & Video <span>音视频 <img
+                    src="images/ico_01.png"/>
+                </span>
+                </a>
+            </div>
+            <div class="block_02 hvstyle"><img src="images/index_p-02.jpg"/><a href="gongkaike_juhe.html">Open Course <span>公开课 <img
+                    src="images/ico_01.png"/></span></a></div>
+            <div class="block_03 hvstyle"><img src="images/index_p-03.jpg"/><a href="zhanlan.html">Exhibition <span>展览 <img
+                    src="images/ico_01.png"/></span></a></div>
+        </div>
+        <div class="box_item2">
+            <div class="block_01 hvstyle"><img src="images/index_p-04.jpg"/><a href="">E-Magazine <span>电子期刊 <img
+                    src="images/ico_01.png"/></span></a></div>
+            <div class="block_04 hvstyle"><img src="images/index_p-05.jpg"/><a href="#">Audio Magazine <span>有声期刊 <img
+                    src="images/ico_01.png"/></span></a></div>
+        </div>
+
+        <div class="block_clum">
+            <ul>
+                <li style="margin-left:0;"><a href="nianhua.html">
+                    <div style=" background-image:url(images/nh.png)"></div>
+                    New Year Paintings <span>年画撷英 <i></i></span></a></li>
+                <li><a href="shiwu.html">
+                    <div style=" background-image:url(images/tp.png)"></div>
+                    Oracle Bone <span>甲骨实物 <i></i></span></a></li>
+                <li style="margin-right:0;"><a href="tapian.html">
+                    <div style=" background-image:url(images/sw.png)"></div>
+                    Oracle Bone Rubbing <span>甲骨拓片 <i></i></span></a></li>
+            </ul>
+        </div>
+
+        <div class="block_botton">
+            <div class="block_btn_01 hvstyle"><img src="images/in_b.jpg"/><a href="wenku.html">Classical Library <span>经典文库 <img
+                    src="images/ico_01.png"/></span></a></div>
+            <div class="block_btn_01 hvstyle"><img src="images/in_b-02.jpg"/><a href="#">Comics <span>中华连环画 <img
+                    src="images/ico_01.png"/></span></a></div>
+            <div class="block_btn_02">
+                <div class="hvstyle"><img src="images/in_b-03.jpg"/><a href="#">Read China <span>阅读中国 <img
+                        src="images/ico_01.png"/></span></a></div>
+                <div class="block_btn_03 hvstyle"><img src="images/in_b-04.jpg"/><a href="wjts.html">Wenjin Book Award <span>文津图书奖 <img
+                        src="images/ico_01.png"/></span></a></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="foot">
+    <div class="container">
+        <div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68"/></div>
+        <div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">各地分布</a>
+            <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China</div>
+        </div>
+        <div class="emw"><img src="images/ewm.jpg" width="90" height="90"/></div>
+    </div>
+</div>
+</body>
+</html>

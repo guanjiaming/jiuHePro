@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>中国文化中心</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+
+        /** 典籍鉴赏的图片切换样式 **/
+
+        .box {
+            width: 100%;
+            height: 400px;
+            position: relative;
+        }
+
+        .list {
+            width: 1000px;
+            height: 400px;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .btn {
+            position: absolute;
+            top: 50%;
+            margin-top: -19px;
+            width: 36px;
+            height: 38px;
+            cursor: pointer;
+            z-index: 999
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .list li {
+            position: absolute;
+            top: 0;
+            left: 0;
+            list-style: none;
+            opacity: 0;
+            transition: all 0.5s ease-out;
+        }
+
+        .p1 {
+            transform: translate3d(0px, 0, 0) scale(0.81);
+            transform-origin: 0 50%;
+            opacity: 0.8 !important;
+            z-index: 2;
+        }
+
+        .p2 {
+            transform: translate3d(56px, 0, 0) scale(1);
+            z-index: 3;
+            opacity: 1 !important;
+        }
+
+        .p3 {
+            transform: translate3d(449px, 0, 0) scale(0.81);
+            transform-origin: -100% 50%;
+            opacity: 0.8 !important;
+            z-index: 2;
+        }
+
+        .list img {
+            width: 882px;
+            height: 400px;
+            border: none;
+            float: left;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo2"><a href="#"><img src="images/logo_2.png" width="190" height="118"/></a></div>
+        <div class="favblock"><a href="#">登录</a> <a href="#">注册</a> <a href="#">EN</a>
+            <form class="search"><span>全部资源</span><input name="" type="text" placeholder="请输入关键字"/><input name=""
+                                                                                                          type="submit"/>
+            </form>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">图书</a></li>
+                <li><a href="#">期刊</a></li>
+                <li><a href="#">图片</a>
+                    <dl>
+                        <dd><a href="#">年画撷英</a></dd>
+                        <dd><a href="#">甲骨拓片</a></dd>
+                        <dd><a href="#">甲骨实物</a></dd>
+                    </dl>
+                </li>
+                <li><a href="#">网络资源</a></li>
+                <li><a href="#">音视频</a></li>
+                <li><a href="#">公开课</a></li>
+                <li><a href="#">展览</a></li>
+                <li><a href="#">资讯</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="banner" style="background-image:url(images/banner3.jpg)">
+
+</div>
+
+<div class="main">
+    <div class="container juhe">
+        <h5>典籍鉴赏</h5>
+        <div class="spjh_slider">
+
+            <div class="box">
+
+                <div class="list" id="list">
+                    <ul>
+                        <li class="p3"><a href="https://www.baidu.com/" target="_blank"><img src="images/sld1.jpg"/></a>
+                        </li>
+                        <li class="p2"><a href="http://news.qq.com/" target="_blank"><img src="images/sld2.jpg"/></a>
+                        </li>
+                        <li class="p1"><a href="https://www.1688.com/" target="_blank"><img src="images/sld3.jpg"/></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="javascript:;" class="prev btn"><img src="images/l_btn.png" width="36" height="38"/></a>
+                <a href="javascript:;" class="next btn"><img src="images/r_btn.png" width="36" height="38"/></a>
+
+
+            </div>
+        </div>
+        <div class="more"><a href="#">查看更多 ></a></div>
+
+        <h4>非物质文化遗产</h4>
+        <div class="whyc">
+            <a href="#"><img src="images/whyc.jpg" width="1001" height="376"/></a></div>
+        <div class="more"><a href="#">查看更多 ></a></div>
+
+        <h5>中国音乐</h5>
+        <div class="chinamusic">
+            <ul>
+                <li>
+                    <div class="muimg"><a href="#"><img src="images/mu.jpg" width="233" height="242"/><span></span></a>
+                    </div>
+                    <p><a href="#">中国音乐</a></p>
+                    <p>作者名称 1998年</p>
+                </li>
+                <li>
+                    <div class="muimg"><a href="#"><img src="images/mu-02.jpg" width="233"
+                                                        height="242"/><span></span></a></div>
+                    <p><a href="#">中国音乐</a></p>
+                    <p>作者名称 1998年</p>
+                </li>
+                <li>
+                    <div class="muimg"><a href="#"><img src="images/mu-03.jpg" width="233"
+                                                        height="242"/><span></span></a></div>
+                    <p><a href="#">中国音乐</a></p>
+                    <p>作者名称 1998年</p>
+                </li>
+                <li>
+                    <div class="muimg"><a href="#"><img src="images/mu-04.jpg" width="233"
+                                                        height="242"/><span></span></a></div>
+                    <p><a href="#">中国音乐</a></p>
+                    <p>作者名称 1998年</p>
+                </li>
+            </ul>
+        </div>
+        <div class="more"><a href="#">查看更多 ></a></div>
+
+        <h5>少儿国学</h5>
+        <div style="padding-bottom:80px;">
+            <img src="images/se.jpg" width="1001" height="344"/>
+        </div>
+    </div>
+</div>
+
+<div class="foot">
+    <div class="container">
+        <div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68"/></div>
+        <div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">各地分布</a>
+            <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China</div>
+        </div>
+        <div class="emw"><img src="images/ewm.jpg" width="90" height="90"/></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        var $a = $(".buttons a");
+        var $s = $(".buttons span");
+        var cArr = ["p3", "p2", "p1"];
+        var index = 0;
+        $(".next").click(
+            function () {
+                previmg();
+            }
+        );
+        $(".prev").click(
+            function () {
+                nextimg();
+            }
+        );
+
+        //上一张
+        function previmg() {
+            cArr.unshift(cArr[2]);
+            cArr.pop();
+            // i是元素的索引，从0开始
+            // e为当前处理的元素
+            // each循环，当前处理的元素移除所有的class，然后添加数组索引i的class
+            $("#list li").each(function (i, e) {
+                $(e).removeClass().addClass(cArr[i]);
+            });
+
+            index--;
+            if (index < 0) {
+                index = 2;
+            }
+        }
+
+        //下一张
+        function nextimg() {
+            cArr.push(cArr[0]);
+            cArr.shift();
+            $("#list li").each(function (i, e) {
+                $(e).removeClass().addClass(cArr[i]);
+            });
+            index++;
+            if (index > 2) {
+                index = 0;
+            }
+        }
+
+    });
+
+</script>
+
+</body>
+</html>

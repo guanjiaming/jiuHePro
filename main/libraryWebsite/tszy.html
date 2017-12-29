@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>中国文化中心</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo2"><a href="#"><img src="images/logo_2.png" width="190" height="118"/></a></div>
+        <div class="favblock"><a href="login.html">登录</a> <a href="reg.html">注册</a>
+            <form class="search">
+                <!-- 资源类型 -->
+                <span id="resourceType" class="resourceType">全部资源</span>
+                <img id="searchIcon" class="searchIcon" src="images/sc_ico.png" alt="searchIcon">
+                <div id="resourceTypeListWrap" class="resourceTypeListWrap">
+                    <ul class="resourceTypeList">
+                        <li>经典文库</li>
+                        <li>中华连环画</li>
+                        <li>文津图书奖</li>
+                        <li>阅读中国</li>
+                        <li>有声期刊</li>
+                        <li>电子期刊</li>
+                        <li>年画撷英</li>
+                        <li>经典文库</li>
+                        <li>中华连环画</li>
+                        <li>文津图书奖</li>
+                        <li>阅读中国</li>
+                        <li>有声期刊</li>
+                        <li>电子期刊</li>
+                        <li>年画撷英</li>
+                        <li>经典文库</li>
+                        <li>中华连环画</li>
+                        <li>文津图书奖</li>
+                        <li>阅读中国</li>
+                        <li>有声期刊</li>
+                        <li>电子期刊</li>
+                        <li>年画撷英</li>
+                    </ul>
+                </div>
+                <!-- 表单输入框 -->
+                <input name="" type="text" placeholder="请输入关键字"/>
+                <input name="" type="submit"/>
+            </form>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">图书</a></li>
+                <li><a href="#">期刊</a></li>
+                <li><a href="#">图片</a>
+                    <dl>
+                        <dd><a href="#">年画撷英</a></dd>
+                        <dd><a href="#">甲骨拓片</a></dd>
+                        <dd><a href="#">甲骨实物</a></dd>
+                    </dl>
+                </li>
+                <li><a href="#">网络资源</a></li>
+                <li><a href="#">音视频</a></li>
+                <li><a href="#">公开课</a></li>
+                <li><a href="#">展览</a></li>
+                <li><a href="#">资讯</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner" style="background-image:url(images/tszy_banner.jpg);height:380px;">
+
+</div>
+
+<div class="main">
+    <div class="container juhe">
+        <h5>经典文库</h5>
+
+        <div class="tszy_nav">
+            <ul>
+                <li style="margin-left:0"><img src="images/tszy1.jpg"/>
+                    <h6>文学</h6><a href="#">查看更多</a></li>
+                <li><img src="images/tszy2.jpg"/><h6>群经</h6><a href="#">查看更多</a></li>
+                <li><img src="images/tszy3.jpg"/><h6>诸子</h6><a href="#">查看更多</a></li>
+                <li><img src="images/tszy4.jpg"/><h6>历史</h6><a href="#">查看更多</a></li>
+            </ul>
+        </div>
+
+        <h5>中华连环画</h5>
+
+        <div class="lhh">
+            <img src="images/lhh.png" width="1021" height="343"/>
+        </div>
+
+
+        <h5>文津图书奖</h5>
+        <div class="wjtsj">
+            <img src="images/wjtsj.png" width="1064" height="385"/>
+            <h6>奖项介绍</h6>
+            <p>
+                2004年,国家图书馆设立了“国家图书馆文津图书奖”，“国家图书馆文津图书奖”每年举办一次，每次评出获奖图书10种（可空缺）。评奖对象为前一年度公开出版、发行的汉文版图书，评审工作由国家图书馆为主组成的组委会策划组织，聘请馆内外专家组成评审委员会评审。</p>
+            <a href="#">查看详情</a>
+
+        </div>
+        <h5>阅读中国</h5>
+        <div style="padding-bottom:80px;">
+            <img src="images/ydzg.jpg" width="1000" height="288"/></div>
+    </div>
+
+</div>
+
+
+<div class="foot">
+    <div class="container">
+        <div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68"/></div>
+        <div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">各地分布</a>
+            <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China</div>
+        </div>
+        <div class="emw"><img src="images/ewm.jpg" width="90" height="90"/></div>
+    </div>
+</div>
+
+
+<!-- 外部脚本 -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(function () {
+
+        $(".formselect i").click(function () {
+            if ($(".formselect i").hasClass('rotate180')) {
+                $(".formselect i").removeClass("rotate180");
+                $(".sc_cate").slideUp();
+            } else {
+                $(".formselect i").addClass("rotate180");
+                $(".sc_cate").slideDown();
+            }
+        });
+
+        $(".sc_cate span").click(function () {
+
+            $("#selvalue").html($(this).html());
+            $(".formselect i").removeClass("rotate180");
+            $(".sc_cate").slideUp();
+
+        });
+
+        //借书还书
+        $(".jie,.huan").click(function () {
+            if ($(this).find("i").hasClass('rotate180')) {
+                $(this).find("i").removeClass("rotate180");
+                $(this).next("div.jieyue_info").slideUp();
+            } else {
+                $(this).find("i").addClass("rotate180");
+                $(this).next("div.jieyue_info").slideDown();
+            }
+        });
+
+        // header资源检索
+        $("#resourceType").click(function () {
+            if ($(".searchIcon").hasClass('rotate180')) {
+                $(".searchIcon").removeClass("rotate180");
+                $(".resourceTypeListWrap").slideUp();
+            }
+            else {
+                $(".searchIcon").addClass("rotate180");
+                $(".resourceTypeListWrap").slideDown();
+            }
+            // $(".searchIcon").addClass("rotate180");
+            // $(".resourceTypeListWrap").slideDown();
+
+            stopBubble(event);
+            // 点击其它地方关闭
+            document.onclick = function () {
+                $(".searchIcon").removeClass("rotate180");
+                $(".resourceTypeListWrap").slideUp();
+                document.onclick = null;
+            }
+        });
+
+        $(".resourceTypeList li").click(function () {
+            $("#searchIcon").removeClass("rotate180");
+            $("#resourceType").text($(this).text());
+            $("#resourceTypeListWrap").slideUp();
+        });
+
+
+    });
+
+    //阻止冒泡函数
+    function stopBubble(e) {
+        if (e && e.stopPropagation) {
+            e.stopPropagation();  //w3c
+        } else {
+            window.event.cancelBubble = true; //IE
+        }
+    }
+</script>
+</body>
+</html>

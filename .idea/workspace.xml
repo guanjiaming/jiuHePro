@@ -2,12 +2,650 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421a75c1-d985-4a44-8f1e-00f758cbe354" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/bootstrap-datetimepicker/moment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/page2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/style/less/main.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/test/test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/simditor/hotkeys.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/simditor/module.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/simditor/simditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/simditor/simditor.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/simditor/uploader.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/css/jquery.mCustomScrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/css/reader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/css/slide.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/css/swiper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/css/swiper.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/maps/swiper.jquery.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/maps/swiper.jquery.umd.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/maps/swiper.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/swiper.jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/swiper.jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/swiper.jquery.umd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/swiper.jquery.umd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/swiper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/dist/js/swiper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/css/jquery.mCustomScrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/css/reader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/css/slide.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/css/swiper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/css/swiper.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/maps/swiper.jquery.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/maps/swiper.jquery.umd.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/maps/swiper.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/swiper.jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/swiper.jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/swiper.jquery.umd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/swiper.jquery.umd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/swiper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/dist/js/swiper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/gongkaike_juhe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/aa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/active.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/aft_lt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/aft_rt.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/aft_rt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/btn_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/complete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/del.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/detail_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/djsc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/ewm.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_ico2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_img-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_img-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_white.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fav_white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/foot_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/foot_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/fwzwhyc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-29.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb-30.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/gdfb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/h7_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/hb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/header_index_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/huan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/ico_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/icon_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/icon_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/img-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/img-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/img-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/img-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/img_v.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/in_b-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/in_b-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/in_b-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/in_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/index_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/index_p-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/index_p-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/index_p-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/index_p-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/index_p.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/jie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/jieyue_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/jindu1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/jindu2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/jindu3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/jt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juhe_lan-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juhe_lan-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juhe_lan-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juhe_lan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juheimg-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juheimg-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/juheimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/l_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/left_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/lhh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/line.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/login_btn.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/logo_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/logo_login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/member_link-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/member_link-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/member_link-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/member_link.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/member_menu_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/menu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/menu_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/menu_bg_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/menu_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/more_j.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/mu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/mu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/mu-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/mu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/newimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/news_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh0_menu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh0_menu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh0_menu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh_menu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh_menu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh_menu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nh_over_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nhdetail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nhimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/nianhua_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/ohter_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/ohter_bg_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/ohter_bg_h2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/pdown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/play_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/player.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/pup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/qian.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/qikan-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/qikan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/r_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/read_fav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/read_raow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/right_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/s_ico.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sc_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sc_ico2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sc_upico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/scdown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/scolltop.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/scroll_down.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/se.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/search_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwu_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwu_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwudetail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwuimg-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwuimg-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwuimg-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/shiwuimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sld1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sld2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sld3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/slider-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/slider-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/slider-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/slider.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/sw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tit_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tp_detail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tszy1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tszy2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tszy3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tszy4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tszy_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tuopian-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tuopian-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tuopian-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tuopian.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/tuopian_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/user_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/vimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/whyc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_img-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_img-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_img-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_img-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_menu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_menu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjts_menu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wjtsj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wk_left-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wk_left-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wk_left-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wk_left.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wkdetail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wklist_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_cont.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wlzy_logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/wwgkk.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/ydzg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s31.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s32.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s33.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s34.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s35.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan/s5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_st1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_st2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_st3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_st4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_st5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_t1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_t2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_t3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_t4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_t5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_th1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_th2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_th3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_th4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zhanlan_th5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/images/zwgkk.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/jquery-1.11.0.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/jquery-1.7.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/jquery-3.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/jquery.mCustomScrollbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/js/slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/qikan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/en/tapian.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/forget_pwd1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/forget_pwd2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/forget_pwd3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gdfb.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_juhe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_play.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list_djsc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list_wwgkk.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list_wwgkk_list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list_zwgkk.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/aa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/active.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/btn_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/complete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/del.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/detail_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/djsc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/ewm.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_ico2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_img-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_img-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_white.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fav_white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/foot_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/foot_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/fwzwhyc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-29.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb-30.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/gdfb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/h7_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/hb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/header_index_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/huan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/ico_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/icon_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/icon_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/img-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/img-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/img-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/img-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/img_v.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/in_b-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/in_b-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/in_b-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/in_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/index_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/index_p-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/index_p-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/index_p-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/index_p-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/index_p.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/jie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/jieyue_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/jindu1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/jindu2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/jindu3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/jt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juhe_lan-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juhe_lan-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juhe_lan-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juhe_lan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juheimg-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juheimg-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/juheimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/l_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/left_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/lhh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/line.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/login_btn.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/logo_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/logo_login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/member_link-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/member_link-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/member_link-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/member_link.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/member_menu_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/menu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/menu_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/menu_bg_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/menu_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/more_j.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/mu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/mu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/mu-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/mu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/newimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/news_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh0_menu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh0_menu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh0_menu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh_menu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh_menu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh_menu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nh_over_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nhdetail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nhimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/nianhua_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/ohter_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/ohter_bg_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/pdown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/play_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/player.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/pup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/qian.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/qikan-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/qikan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/r_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/read_fav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/read_raow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/right_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/s_ico.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sc_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sc_ico2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sc_upico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/scdown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/scolltop.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/scroll_down.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/se.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/search_btn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwu_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwu_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwudetail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwuimg-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwuimg-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwuimg-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/shiwuimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sld.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sld1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sld2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sld3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/slider-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/slider-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/slider-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/slider.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/sw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tit_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tp_detail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tszy1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tszy2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tszy3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tszy4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tszy_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tuopian-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tuopian-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tuopian-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tuopian.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/tuopian_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/user_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/vimg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/whyc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_img-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_img-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_img-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_img-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_menu-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_menu-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjts_menu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wjtsj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wk_left-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wk_left-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wk_left-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wk_left.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wkdetail.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wklist_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_cont.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wlzy_logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/wwgkk.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/ydzg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s31.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s32.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s33.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s34.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s35.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/中华珍藏印谱联展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/中华珍贵医药典籍展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/中国南阳汉画像石120拓片展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/中国航天60年.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/中国记忆项目 年画.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/共度书香年-2017楹联专题.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/册府千华 民间珍贵古籍收藏展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/册府千华 珍贵古籍雕版特展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/大漆装饰专题.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/大道流行.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/我们的文字.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/新春佳节 传统节日文化展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/新疆历史文献暨古籍保护成果展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/晚晴民国敦煌历史照片展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/永乐大典特展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/炫彩童年.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/盛事龙翔 中国年.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/神秘的西夏王国.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/蓝靛金箔中国画 桑皮纸绘画作品展.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/蚕丝织绣专题.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_st1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_st2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_st3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_st4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_st5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_t1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_t2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_t3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_t4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_t5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_th1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_th2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_th3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_th4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zhanlan_th5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/images/zwgkk.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/jquery-1.11.0.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/jquery-1.7.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/jquery-3.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/jquery.mCustomScrollbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/js/slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/lxwm.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_fav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_jieyue.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_log.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_shipin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_shuqian.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_tupian.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_tushu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_tushu_fengmian.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/my_zhanlan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/news.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/news_xinwen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/nianhua.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/nianhua_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/qikan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/reader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/reg.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/reg_ok.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/search.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/search_all.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/search_nodata.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/search_shipin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/search_shipin_waiwen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/shipin_juhe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/shiwu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/shiwu_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/tapian.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/tapian_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/tszy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/wenku.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/wjts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/wjts_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/wlzy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/zhanlan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/zxjj.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/libraryWebsite/zyzn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/test/t2.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/index.html" afterPath="$PROJECT_DIR$/main/JYhoutai/index.html" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/lib/CFEditor/classfoo-editor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/lib/CFEditor/classfoo-editor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/lib/CFEditor/global.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/lib/CFEditor/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/main/JYhoutai/lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/page2.html" afterPath="$PROJECT_DIR$/main/JYhoutai/page2.html" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/style/css/main.css" afterPath="$PROJECT_DIR$/main/JYhoutai/style/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/main/JYhoutai/style/less/main.less" afterPath="$PROJECT_DIR$/main/JYhoutai/style/less/main.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,63 +660,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/JYhoutai/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding>
-                <element signature="n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/JYhoutai/page2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-              <folding>
-                <element signature="n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#6;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/simditor-2.3.5/index.html">
+        <entry file="file://$PROJECT_DIR$/main/libraryWebsite/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/CFEditor-master/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5643">
-              <caret line="395" column="53" lean-forward="false" selection-start-line="395" selection-start-column="53" selection-end-line="395" selection-end-column="53" />
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/JYhoutai/style/less/main.less">
+      <file leaf-file-name="my_jieyue.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_jieyue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2541">
-              <caret line="77" column="7" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="528">
+              <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#5064#7055#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tszy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/libraryWebsite/tszy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding>
+                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#4607#6598#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +716,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,6 +729,24 @@
       <find>Search</find>
       <find>-1</find>
       <find>section well cf</find>
+      <find>height</find>
+      <find>file</find>
+      <find>switer</find>
+      <find>a.</find>
+      <find>fav</find>
+      <find>clear</find>
+      <find>wwhover</find>
+      <find>animate</find>
+      <find>formselect</find>
+      <find>.gif</find>
+      <find>.css</find>
+      <find>.png</find>
+      <find>.</find>
+      <find>canvas</find>
+      <find>0.3s</find>
+      <find>login</find>
+      <find>search</find>
+      <find>rota</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,16 +761,43 @@
         <option value="$PROJECT_DIR$/main/JiangYou2/table.html" />
         <option value="$PROJECT_DIR$/main/JiangYou2/index.html" />
         <option value="$PROJECT_DIR$/main/JYhoutai/style/css/main.css" />
-        <option value="$PROJECT_DIR$/main/JYhoutai/index.html" />
         <option value="$PROJECT_DIR$/main/JYhoutai/lib/bootstrap-datetimepicker/moment.js" />
-        <option value="$PROJECT_DIR$/main/JYhoutai/style/less/main.less" />
         <option value="$USER_HOME$/Desktop/CFEditor-master/index.html" />
+        <option value="$USER_HOME$/Desktop/simditor-2.3.5/index.html" />
+        <option value="$PROJECT_DIR$/main/JYhoutai/lib/simditor/simditor.css" />
+        <option value="$PROJECT_DIR$/main/JYhoutai/index.html" />
+        <option value="$PROJECT_DIR$/main/JYhoutai/lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" />
+        <option value="$PROJECT_DIR$/main/JYhoutai/style/less/main.less" />
         <option value="$PROJECT_DIR$/main/JYhoutai/page2.html" />
+        <option value="$PROJECT_DIR$/main/test/t2.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/shiwu.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/gongkaike_play.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/my_shuqian.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/my_log.html" />
+        <option value="$PROJECT_DIR$/main/test/t.css" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/shipin_juhe.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/reg_ok.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/reg.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/login.html" />
+        <option value="$PROJECT_DIR$/main/test/test3.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/search.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/my_zhanlan.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/index.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/news_xinwen.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/tszy.html" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/css/style.css" />
+        <option value="$PROJECT_DIR$/main/libraryWebsite/my_jieyue.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -131,11 +805,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/main/jiangyou/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="134" />
-    <option name="y" value="66" />
-    <option name="width" value="1592" />
-    <option name="height" value="942" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="283" />
+    <option name="y" value="120" />
+    <option name="width" value="1607" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -152,6 +826,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,36 +843,35 @@
               <item name="jiuHePro" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiuHePro" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="JYhoutai" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWebsite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiuHePro" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiuHePro" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="JYhoutai" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiuHePro" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiuHePro" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="JYhoutai" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-datetimepicker" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,18 +900,21 @@
       <updated>1514168579732</updated>
       <workItem from="1514168582151" duration="14252000" />
       <workItem from="1514252869346" duration="26427000" />
-      <workItem from="1514339299483" duration="1549000" />
+      <workItem from="1514339299483" duration="22319000" />
+      <workItem from="1514369909441" duration="69000" />
+      <workItem from="1514425578250" duration="23145000" />
+      <workItem from="1514512691831" duration="24655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42228000" />
+    <option name="totallyTimeSpent" value="110867000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="66" width="1592" height="942" extended-state="1" />
+    <frame x="283" y="120" width="1607" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18908629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18730359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -267,187 +944,408 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/index.html">
+    <entry file="file://$PROJECT_DIR$/main/JYhoutai/page2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1749">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="215">
+          <caret line="188" column="52" lean-forward="false" selection-start-line="188" selection-start-column="52" selection-end-line="188" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/JYhoutai/style/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="77" column="7" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="294">
+          <caret line="148" column="17" lean-forward="false" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/page2.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/zhanlan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4224">
-          <caret line="128" column="112" lean-forward="false" selection-start-line="128" selection-start-column="112" selection-end-line="128" selection-end-column="112" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#6;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/index.html">
+    <entry file="file://$PROJECT_DIR$/main/JYhoutai/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/forget_pwd2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="127" lean-forward="false" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/forget_pwd3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/table.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/gdfb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4554">
-          <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+        <state relative-caret-position="330">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34782">
-          <caret line="1054" column="27" lean-forward="false" selection-start-line="1054" selection-start-column="27" selection-end-line="1054" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://S:/其他/我的代码/4-面向对象/代码/5.02/01-正则表达式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/test/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/css/theme.css" />
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/activity.html" />
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/images/jquery-ui/picker.png">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/fav_ico.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/lib/jquery/dist/jquery.js">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/fav_ico2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/fav_img-02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/fav_img.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/banner2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/css/reader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1460">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/gongkaike_juhe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list_djsc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/css/jquery.mCustomScrollbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="367" column="39" lean-forward="false" selection-start-line="367" selection-start-column="39" selection-end-line="367" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/gongkaike_play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_shipin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_tushu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/bootstrap/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_tushu_fengmian.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/scripts/common.js">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="561">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/table.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/sc_ico.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/gongkaike_sp_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/zyzn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/css/slide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-571">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14166">
+          <caret line="175" column="62" lean-forward="false" selection-start-line="175" selection-start-column="61" selection-end-line="175" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/zxjj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="58" column="63" lean-forward="false" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/forget_pwd1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/lxwm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/reg_ok.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="138" column="21" lean-forward="false" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="16" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/reg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="1054" column="27" lean-forward="false" selection-start-line="1054" selection-start-column="27" selection-end-line="1054" selection-end-column="27" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/style/css/main.css">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/images/zhanlan/s1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/test/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/search_all.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JiangYou2/index.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="85" column="83" lean-forward="false" selection-start-line="85" selection-start-column="83" selection-end-line="86" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/lib/bootstrap-datetimepicker/moment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2099">
-          <caret line="3194" column="4" lean-forward="false" selection-start-line="3194" selection-start-column="4" selection-end-line="3194" selection-end-column="4" />
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/style/less/main.less">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_zhanlan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="77" column="7" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        <state relative-caret-position="528">
+          <caret line="58" column="251" lean-forward="false" selection-start-line="58" selection-start-column="251" selection-end-line="58" selection-end-column="251" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/CFEditor-master/index.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/shipin_juhe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5643">
-          <caret line="395" column="53" lean-forward="false" selection-start-line="395" selection-start-column="53" selection-end-line="395" selection-end-column="53" />
+        <state relative-caret-position="924">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/simditor-2.3.5/index.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/shiwu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/news_xinwen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/tapian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1900">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/shiwu_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_shuqian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="134" column="33" lean-forward="false" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#6;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#7;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_tupian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/JYhoutai/page2.html">
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="9414">
+          <caret line="516" column="25" lean-forward="true" selection-start-line="516" selection-start-column="25" selection-end-line="516" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/tszy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding>
-            <element signature="n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#6;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#4607#6598#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/libraryWebsite/my_jieyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#5064#7055#0" expanded="false" />
           </folding>
         </state>
       </provider>

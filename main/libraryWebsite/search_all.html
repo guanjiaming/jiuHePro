@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国文化中心</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+	$(function(){
+		
+		$(".formselect i").click(function(){
+			if($(".formselect i").hasClass('rotate180')){
+				$(".formselect i").removeClass("rotate180");
+				$(".sc_cate").slideUp();
+			}else{
+				$(".formselect i").addClass("rotate180");
+				$(".sc_cate").slideDown();
+			}
+			
+			
+			
+		})
+		
+		$(".sc_cate span").click(function(){
+			
+			$("#selvalue").html($(this).html());
+			$(".formselect i").removeClass("rotate180");
+			$(".sc_cate").slideUp();
+			
+		})
+		
+		
+		
+	})
+</script>
+</head>
+
+<body>
+<div class="header">
+  <div class="container">
+    	<div class="logo2"><a href="#"><img src="images/logo_2.png" width="190" height="118" /></a></div>
+        <div class="favblock"><a href="#">登录</a> <a href="#">注册</a>  <a href="#">EN</a>  <form class="search"><span>全部资源</span><input name="" type="text" placeholder="请输入关键字" /><input name="" type="submit" /></form>  </div>
+        <div class="nav">
+            <ul>
+               <li><a href="#">首页</a></li>
+                <li><a href="#">图书</a></li>
+                <li><a href="#">期刊</a></li>
+                <li><a href="#">图片</a>
+                	<dl>
+                    	<dd><a href="#">年画撷英</a></dd>
+                        <dd><a href="#">甲骨拓片</a></dd>
+                        <dd><a href="#">甲骨实物</a></dd>
+                    </dl>
+                </li>
+                <li><a href="#">网络资源</a></li>
+                <li><a href="#">音视频</a></li>
+                <li><a href="#">公开课</a></li>
+                <li><a href="#">展览</a></li>
+                <li><a href="#">资讯</a></li>
+            </ul>
+        </div>
+  </div>
+</div>
+
+
+
+<div class="main">
+	<div class="search_block">
+    	<div class="container search_form">
+        	<div class="scfm">
+            	<div class="formselect">
+                	<p id="selvalue">中文公开课</p>
+                	<i class="animate"></i>
+                    <div class="sc_cate">
+                    	<div class="content mCustomScrollbar" style="height:300px;">
+                        <span>经典文库</span>
+                        <span>中华连环画</span>
+                        <span>文津图书奖</span>
+                        <span>阅读中国</span>
+                        <span>有声期刊</span>
+                        <span>电子期刊</span>
+                        <span>年画撷英</span>
+                        <span>经典文库</span>
+                        <span>中华连环画</span>
+                        <span>文津图书奖</span>
+                        <span>阅读中国</span>
+                        <span>有声期刊</span>
+                        <span>电子期刊</span>
+                        <span>年画撷英</span>
+                        </div>
+                    </div>
+                    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+				<script src="js/jquery.mCustomScrollbar.js"></script>
+                </div>
+                <input class="search_key" name="" type="text" value="喜庆节日"/> <input name="" type="button" class="sc_btn_form" />
+                
+                
+            </div>
+        	<div class="res_total">共搜索到相关条目　<span>20条</span></div>
+        </div>
+    </div>
+	<div class="container" style="margin-top:35px;">
+    		<div class="sc_all">年画</div>
+            <div class="scresult">        	
+                <ul>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    <li><a href="#"><img src="images/nhimg.jpg" width="230" height="230" /></a></li>
+                    		
+                </ul>
+         	<div class="clear"></div>
+
+       		 </div>
+             <div class="sc_all">视频</div>
+             
+             <div class="search_sp">
+                
+                <ul>
+                <li><a href="#"><img src="images/vimg.jpg" width="230" height="144" /></a><p>《散氏盘》 <a href="#">点击进入</a></p></li>
+                <li><a href="#"><img src="images/vimg.jpg" width="230" height="144" /></a><p>《散氏盘》 <a href="#">点击进入</a></p></li>
+                <li><a href="#"><img src="images/vimg.jpg" width="230" height="144" /></a><p>《散氏盘》 <a href="#">点击进入</a></p></li>
+                <li><a href="#"><img src="images/vimg.jpg" width="230" height="144" /></a><p>《散氏盘》 <a href="#">点击进入</a></p></li>
+
+             </ul>
+             <div class="clear"></div>
+                
+               
+            </div>
+             
+             <div class="sc_all">拓片</div>
+            
+            
+            <div class="clear"></div>
+           <div class="tapian">
+    	 <ul>
+            <li><div class="tapimg"><img src="images/tuopian.jpg" width="230" height="240" /></div><a href="#">北圖6814</a><p>商武乙文丁（B.C.1147-1102）河南省安陽市殷墟出土</p></li>
+            <li><div class="tapimg"><img src="images/tuopian.jpg" width="230" height="240" /></div><a href="#">北圖6814</a><p>商武乙文丁（B.C.1147-1102）河南省安陽市殷墟出土</p></li>
+            <li><div class="tapimg"><img src="images/tuopian.jpg" width="230" height="240" /></div><a href="#">北圖6814</a><p>商武乙文丁（B.C.1147-1102）河南省安陽市殷墟出土</p></li>
+            <li><div class="tapimg"><img src="images/tuopian.jpg" width="230" height="240" /></div><a href="#">北圖6814</a><p>商武乙文丁（B.C.1147-1102）河南省安陽市殷墟出土</p></li>
+         </ul>
+         <div class="clear"></div>
+          
+   			 </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+
+
+
+<div class="foot">
+	<div class="container">
+    	<div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68" /></div>
+    	<div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">中心简介</a>
+        <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China </div> 
+        </div>
+        <div class="emw"><img src="images/ewm.jpg" width="90" height="90" /></div>
+  </div>
+</div>
+</body>
+</html>

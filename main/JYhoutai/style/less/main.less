@@ -75,7 +75,7 @@ a {
   font-size: 12px;
   padding: 4px 10px;
   position: relative;
-  top: 1px;
+  left: -1px;
 }
 
 // 左侧菜单
@@ -136,7 +136,6 @@ a {
   }
 }
 
-
 #main {
   table {
     td {
@@ -146,10 +145,20 @@ a {
 }
 
 // 分页选中背景
-.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
   z-index: 3;
   color: #fff;
   cursor: default;
   background-color: #1057b3;
   border-color: #1057b3;
+}
+
+// 设置面板标题的文字大小
+.panel-heading {
+  font-weight: 700;
 }

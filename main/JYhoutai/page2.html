@@ -10,7 +10,7 @@
     <!-- 时间选择css -->
     <link rel="stylesheet" href="lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
     <!-- 富文本的css -->
-    <link rel="stylesheet" type="text/css" href="lib/styles/simditor.css" />
+    <link rel="stylesheet" type="text/css" href="lib/simditor/simditor.css"/>
     <!-- 自己的css -->
     <link rel="stylesheet" href="style/css/main.css">
 </head>
@@ -25,7 +25,7 @@
                     <div class="navbar-header">
                         <a class="JY-title" href="#">用户管理界面</a>
                     </div>
-
+                    <!-- 功能图标 -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
@@ -34,11 +34,11 @@
                         <!-- 搜索 -->
                         <form class="navbar-form navbar-left">
                             <div class="form-group navSearch">
-                                <input type="text" class="form-control" placeholder="家纺">
+                                <input type="text" class="form-control pull-left" placeholder="家纺">
+                                <button type="button" class="btn btn-default navSearchBtn pull-left">搜索</button>
                             </div>
-                            <button type="button" class="btn btn-default navSearchBtn">搜索</button>
                         </form>
-
+                        <!-- 其他信息 -->
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#">消息</a></li>
                             <li class="dropdown">
@@ -65,6 +65,7 @@
     <div id="JY-content">
         <div class="container">
             <div class="row">
+
                 <!-- 菜单 -->
                 <div id="sub" class="col-md-3 sub">
                     <div id="menu" class="menu">
@@ -106,7 +107,11 @@
                                 <div class="form-group">
                                     <label for="file" class="col-sm-2 control-label">缩略图：</label>
                                     <div class="col-sm-8">
-                                        <input type="file" id="file">
+                                        <input type="file" id="file" multiple value="">
+                                        <!--<div class="fileImgWrap">-->
+                                            <!--<img class="fileImg" src="" alt="缩略图图片" style="width: 80px;background: #000;">-->
+                                            <!--<div class="fileImgClose">X</div>-->
+                                        <!--</div>-->
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -126,8 +131,9 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">详情：</label>
                                     <div class="col-sm-8">
+
                                         <!-- 富文本 -->
-                                        <textarea class="form-control" rows="3" style="resize: none"></textarea>
+                                        <textarea id="editor" class="editor" style="resize: none"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -154,14 +160,11 @@
 
                                     </div>
                                     <div class="col-sm-4">
-                                        <button type="button" class="btn btn-default btn-sm"
-                                                style="margin-right: 20px;">重置
-                                        </button>
+                                        <button type="reset" class="btn btn-default btn-sm" style="margin-right: 20px;">重置</button>
                                         <button type="button" class="btn btn-default btn-sm">提交</button>
                                     </div>
                                 </div>
                             </form>
-
                         </div>
                     </div>
                 </div>
@@ -180,9 +183,10 @@
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="lib/bootstrap-datetimepicker/moment.js"></script>
 <script src="lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
-<script src="lib/CFEditor/global.js"></script>
-<script src="lib/CFEditor/main.js"></script>
-<script src="lib/CFEditor/classfoo-editor.js"></script>
+<script src="lib/simditor/module.min.js"></script>
+<script src="lib/simditor/hotkeys.min.js"></script>
+<script src="lib/simditor/uploader.min.js"></script>
+<script src="lib/simditor/simditor.min.js"></script>
 <script>
     $(function () {
         // 调用时间选择器
@@ -190,6 +194,22 @@
             format: 'YYYY-MM-DD',
             locale: moment.locale('zh-cn')
         });
+
+        // 调用富文本
+        var editor = new Simditor({
+            textarea: $('#editor')
+            //optional options
+        });
+
+        $("#file").change(function (e) {
+            console.log("=======");
+            var fileName = $("#file").val(); // 获取文件路径
+            var file0 = e.target.files;
+            console.log(file0);
+
+            // var str = lastIndexOf('.') + 1; // 获取文件名称后缀的“.”的位置
+        });
+
     })
 
 </script>
