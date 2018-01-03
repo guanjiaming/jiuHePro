@@ -1,25 +1,75 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>中国文化中心</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>中国文化中心</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: url(images/user_bg.jpg) no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
 </head>
 
-<body style="background-image:url(images/user_bg.jpg); background-repeat:no-repeat; background-size:cover; position:relative;">
+<body>
 
 
-<div class="login_logo"><img src="images/logo_login.png" width="169" height="126" /></div>
+<div class="login_logo"><img src="images/logo_login.png" width="169" height="126"/></div>
 <div class="login_box">
-	<div class="logoin_tit" style="background:none"><a href="#" class="active">验证身份</a></div>
-    <div class="logoin_jindu"><img src="images/jindu1.jpg" width="336" height="58" /></div>
-    <div class="login_input"><input name="" type="text" placeholder="请输入注册时候填写的邮箱" /></div>
-    <div class="login_msg"><span>请填写正确的邮箱格式</span> <div class="login_txt">请登录您的注册邮箱，查看系统邮件完成身份验证！</div></div>
-  <div class="login_btn"><button>提交</button></div>
-    
-    
+    <div class="logoin_tit" style="background:none"><a class="active">验证身份</a></div>
+    <div class="logoin_jindu">
+        <img src="images/jindu1.jpg" width="336" height="58"/>
+    </div>
+    <div class="login_input">
+        <input class="emailInput" name="" type="text" placeholder="请输入注册时候填写的邮箱"/></div>
+    <div class="login_msg">
+        <span id="login_errTip" class="login_errTip">请填写正确的邮箱格式</span>
+        <div class="login_txt">请登录您的注册邮箱，查看系统邮件完成身份验证！</div>
+    </div>
+    <div class="login_btn">
+        <button class="forgot_pwd1_ok_btn">提交</button>
+    </div>
+
 
 </div>
 
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    $(function () {
+        var isEmail;
+        // 正则验证邮箱是否正确
+        $(".emailInput").blur(function () {
+            var emailInputVal = $(this).val();
+            var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+            isEmail = reg.test(emailInputVal);
+            if (!isEmail) {
+                $("#login_errTip").fadeIn();
+            } else {
+                $("#login_errTip").fadeOut();
+            }
+        });
+
+        //  登录
+        $(".forgot_pwd1_ok_btn").click(function () {
+            var emailInputVal = $(".emailInput").val();
+            if (emailInputVal == '') {
+                $("#login_errTip").fadeIn();
+            } else if(isEmail){
+                alert("邮箱：" + emailInputVal);
+            }
+
+        });
+    })
+</script>
 </body>
 </html>

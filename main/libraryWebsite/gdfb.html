@@ -1,136 +1,260 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>中国文化中心</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/main.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>中国文化中心</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
 <div class="header">
-  <div class="container">
-    	<div class="logo2"><a href="#"><img src="images/logo_2.png" width="190" height="118" /></a></div>
-        <div class="favblock"><a href="#">登录</a> <a href="#">注册</a>  <a href="#">EN</a>  <form class="search"><span>全部资源</span><input name="" type="text" placeholder="请输入关键字" /><input name="" type="submit" /></form>  </div>
+    <div class="container">
+        <div class="logo2"><a href="#"><img src="images/logo_2.png" width="190" height="118"/></a></div>
+        <div class="favblock"><a href="#">登录</a> <a href="#">注册</a> <a href="#">EN</a>
+            <form class="search">
+
+                <!-- 资源类型 -->
+                <span id="resourceType" class="resourceType">全部资源</span>
+                <img id="searchIcon" class="searchIcon" src="images/sc_ico.png" alt="searchIcon">
+                <div id="resourceTypeListWrap" class="resourceTypeListWrap">
+                    <ul class="resourceTypeList">
+                        <li>经典文库</li>
+                        <li>中华连环画</li>
+                        <li>文津图书奖</li>
+                        <li>阅读中国</li>
+                        <li>有声期刊</li>
+                        <li>电子期刊</li>
+                        <li>年画撷英</li>
+                        <li>经典文库</li>
+                        <li>中华连环画</li>
+                        <li>文津图书奖</li>
+                        <li>阅读中国</li>
+                        <li>有声期刊</li>
+                        <li>电子期刊</li>
+                        <li>年画撷英</li>
+                        <li>经典文库</li>
+                        <li>中华连环画</li>
+                        <li>文津图书奖</li>
+                        <li>阅读中国</li>
+                        <li>有声期刊</li>
+                        <li>电子期刊</li>
+                        <li>年画撷英</li>
+                    </ul>
+                </div>
+                <!-- 表单输入框 -->
+                <input name="" type="text" placeholder="请输入关键字"/>
+                <input id="searchBtn" class="searchBtn" type="button"/>
+
+            </form>
+        </div>
         <div class="nav">
             <ul>
-               <li><a href="#">首页</a></li>
-                <li><a href="#">图书</a></li>
-                <li><a href="#">期刊</a></li>
-                <li><a href="#">图片</a>
-                	<dl>
-                    	<dd><a href="#">年画撷英</a></dd>
-                        <dd><a href="#">甲骨拓片</a></dd>
-                        <dd><a href="#">甲骨实物</a></dd>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="tszy.html">图书</a></li>
+                <li><a href="qikan.html">期刊</a></li>
+                <li><a href="javascript:;">图片</a>
+                    <dl>
+                        <dd><a href="nianhua.html">年画撷英</a></dd>
+                        <dd><a href="tapian.html">甲骨拓片</a></dd>
+                        <dd><a href="shiwu.html">甲骨实物</a></dd>
                     </dl>
                 </li>
-                <li><a href="#">网络资源</a></li>
-                <li><a href="#">音视频</a></li>
-                <li><a href="#">公开课</a></li>
-                <li><a href="#">展览</a></li>
-                <li><a href="#">资讯</a></li>
+                <li><a href="wlzy.html">网络资源</a></li>
+                <li><a href="shipin_juhe.html">音视频</a></li>
+                <li><a href="gongkaike_juhe.html">公开课</a></li>
+                <li><a href="zhanlan.html">展览</a></li>
+                <li><a href="news.html">资讯</a></li>
             </ul>
         </div>
-  </div>
+    </div>
 </div>
-
 
 
 <div class="main">
-	<div class="container">
-	<div class="left_gkk" style="padding-top:25px;">
-            <a href="#">主要职能</a>
-            <a href="#">联系我们</a>
-            <a href="#">中心简介</a>
-            <a href="#" class="hover">各地分布</a>
+    <div class="container">
+        <div class="left_gkk" style="padding-top:25px;">
+            <a href="zyzn.html">主要职能</a>
+            <a href="lxwm.html">联系我们</a>
+            <a href="zxjj.html">中心简介</a>
+            <a href="gdfb.html" class="hover">各地分布</a>
         </div>
         <div class="right_alone">
-          <div class="alone_title">各地分布</div>
-          <div class="alone_content">
-          	<div class="tit">亚洲</div>
-            <div class="gdfb_list">
-            	<ul>
-                	<li><img src="images/gdfb.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-02.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-03.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-04.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-05.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-06.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-07.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-08.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-09.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-10.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-11.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-12.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                </ul>
-                <div class="clear"></div>
+            <div class="alone_title">各地分布</div>
+            <div class="alone_content">
+                <div class="tit">亚洲</div>
+                <div class="gdfb_list">
+                    <ul>
+                        <li><img src="images/gdfb.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-02.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-03.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-04.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-05.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-06.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-07.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-08.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-09.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-10.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-11.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-12.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="tit">欧洲</div>
+                <div class="gdfb_list">
+                    <ul>
+                        <li><img src="images/gdfb-13.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-14.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-15.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-16.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-17.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-18.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-19.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-20.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-21.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="tit">非洲</div>
+                <div class="gdfb_list">
+                    <ul>
+                        <li><img src="images/gdfb-22.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-23.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-24.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-25.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-26.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="tit">北美洲</div>
+                <div class="gdfb_list">
+                    <ul>
+                        <li><img src="images/gdfb-27.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="tit">大洋洲</div>
+                <div class="gdfb_list">
+                    <ul>
+                        <li><img src="images/gdfb-28.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-29.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+                        <li><img src="images/gdfb-30.jpg" width="176" height="177"/>
+                            <p>首尔中国文化中心</p></li>
+
+                    </ul>
+                    <div class="clear"></div>
+                </div>
             </div>
-            <div class="tit">欧洲</div>
-            <div class="gdfb_list">
-            	<ul>
-                	<li><img src="images/gdfb-13.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-14.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-15.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-16.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-17.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-18.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-19.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-20.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-21.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="tit">非洲</div>
-            <div class="gdfb_list">
-            	<ul>
-                	<li><img src="images/gdfb-22.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-23.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-24.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-25.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-26.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                   
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="tit">北美洲</div>
-            <div class="gdfb_list">
-            	<ul>
-                	<li><img src="images/gdfb-27.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="tit">大洋洲</div>
-            <div class="gdfb_list">
-            	<ul>
-                	<li><img src="images/gdfb-28.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-29.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    <li><img src="images/gdfb-30.jpg" width="176" height="177" /><p>首尔中国文化中心</p></li>
-                    
-                </ul>
-                <div class="clear"></div>
-            </div>
-          </div>
-          
+
         </div>
         <div class="clear"></div>
-        </div>
+    </div>
 </div>
-
-
-
-
-
 
 
 <div class="foot">
-	<div class="container">
-    	<div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68" /></div>
-    	<div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">各地分布</a>
-        <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China </div> 
+    <div class="container">
+        <div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68"/></div>
+        <div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">各地分布</a>
+            <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China</div>
         </div>
-        <div class="emw"><img src="images/ewm.jpg" width="90" height="90" /></div>
-  </div>
+        <div class="emw"><img src="images/ewm.jpg" width="90" height="90"/></div>
+    </div>
 </div>
+
+<!-- 外部脚本 -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(function () {
+
+        $(".formselect i").click(function () {
+            if ($(".formselect i").hasClass('rotate180')) {
+                $(".formselect i").removeClass("rotate180");
+                $(".sc_cate").slideUp();
+            } else {
+                $(".formselect i").addClass("rotate180");
+                $(".sc_cate").slideDown();
+            }
+        });
+
+        $(".sc_cate span").click(function () {
+
+            $("#selvalue").html($(this).html());
+            $(".formselect i").removeClass("rotate180");
+            $(".sc_cate").slideUp();
+
+        });
+
+        // header资源检索
+        $("#resourceType").click(function () {
+            if ($(".searchIcon").hasClass('rotate180')) {
+                $(".searchIcon").removeClass("rotate180");
+                $(".resourceTypeListWrap").slideUp();
+            }
+            else {
+                $(".searchIcon").addClass("rotate180");
+                $(".resourceTypeListWrap").slideDown();
+            }
+            // $(".searchIcon").addClass("rotate180");
+            // $(".resourceTypeListWrap").slideDown();
+
+            stopBubble(event);
+            // 点击其它地方关闭
+            document.onclick = function () {
+                $(".searchIcon").removeClass("rotate180");
+                $(".resourceTypeListWrap").slideUp();
+                document.onclick = null;
+            }
+        });
+
+        $(".resourceTypeList li").click(function () {
+            $("#searchIcon").removeClass("rotate180");
+            $("#resourceType").text($(this).text());
+            $("#resourceTypeListWrap").slideUp();
+        });
+
+
+    });
+
+    //阻止冒泡函数
+    function stopBubble(e) {
+        if (e && e.stopPropagation) {
+            e.stopPropagation();  //w3c
+        } else {
+            window.event.cancelBubble = true; //IE
+        }
+    }
+</script>
 </body>
 </html>

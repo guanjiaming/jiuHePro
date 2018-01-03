@@ -7,68 +7,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/slide.css" rel="stylesheet" type="text/css"/>
 
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script>
-        $(function () {
-
-            $("#selvalue").click(function () {
-
-                if ($(".sel_key i").hasClass('rotate180')) {
-                    $(".sel_key i").removeClass("rotate180");
-                    $(".cate").slideUp();
-                } else {
-                    $(".sel_key i").addClass("rotate180");
-                    $(".cate").slideDown();
-                }
-                stopBubble(event);
-                document.onclick = function () {
-                    $(".sel_key i").removeClass("rotate180");
-                    $(".cate").slideUp();
-                    document.onclick = null;
-                }
-
-            });
-
-            $(".sel_key i").click(function () {
-                if ($(".sel_key i").hasClass('rotate180')) {
-                    $(".sel_key i").removeClass("rotate180");
-                    $(".cate").slideUp();
-                } else {
-                    $(".sel_key i").addClass("rotate180");
-                    $(".cate").slideDown();
-                }
-
-            });
-
-
-            $(".cate span").click(function () {
-
-                $("#selvalue").html($(this).html());
-                $(".sel_key i").removeClass("rotate180");
-                $(".cate").slideUp();
-
-            });
-
-            // 搜索按钮点击
-            $("#sc_btn").click(function () {
-                var keywordVal = $("#search_input").val();
-                var searchType = $("#selvalue").text();
-
-                window.location.href = "search_all.html?keyword=" + keywordVal + "&searchType=" + searchType;
-            })
-
-        });
-
-        //阻止冒泡函数
-        function stopBubble(e) {
-            if (e && e.stopPropagation) {
-                e.stopPropagation();  //w3c
-            } else {
-                window.event.cancelBubble = true; //IE
-            }
-        }
-    </script>
-    <script src="js/slider.js"></script>
 </head>
 
 <body>
@@ -215,11 +153,74 @@
 <div class="foot">
     <div class="container">
         <div class="foot_logo"><img src="images/foot_logo.png" width="68" height="68"/></div>
-        <div class="foot_nav"><a href="#">主要职能</a><a href="#">联系我们</a><a href="#">中心简介</a><a href="#">各地分布</a>
+        <div class="foot_nav"><a href="zyzn.html">主要职能</a><a href="lxwm.html">联系我们</a><a href="zxjj.html">中心简介</a><a href="gdfb.html">各地分布</a>
             <div class="copyright">京ICP备05083456号-3Cultural Center 中国文化中心 Copyright 2010-2014 China</div>
         </div>
         <div class="emw"><img src="images/ewm.jpg" width="90" height="90"/></div>
     </div>
 </div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/slider.js"></script>
+<script>
+    $(function () {
+
+        $("#selvalue").click(function () {
+
+            if ($(".sel_key i").hasClass('rotate180')) {
+                $(".sel_key i").removeClass("rotate180");
+                $(".cate").slideUp();
+            } else {
+                $(".sel_key i").addClass("rotate180");
+                $(".cate").slideDown();
+            }
+            stopBubble(event);
+            document.onclick = function () {
+                $(".sel_key i").removeClass("rotate180");
+                $(".cate").slideUp();
+                document.onclick = null;
+            }
+
+        });
+
+        $(".sel_key i").click(function () {
+            if ($(".sel_key i").hasClass('rotate180')) {
+                $(".sel_key i").removeClass("rotate180");
+                $(".cate").slideUp();
+            } else {
+                $(".sel_key i").addClass("rotate180");
+                $(".cate").slideDown();
+            }
+
+        });
+
+
+        $(".cate span").click(function () {
+
+            $("#selvalue").html($(this).html());
+            $(".sel_key i").removeClass("rotate180");
+            $(".cate").slideUp();
+
+        });
+
+        // 搜索按钮点击
+        $("#sc_btn").click(function () {
+            var keywordVal = $("#search_input").val();
+            var searchType = $("#selvalue").text();
+
+            window.location.href = "search_all.html?keyword=" + keywordVal + "&searchType=" + searchType;
+        })
+
+    });
+
+    //阻止冒泡函数
+    function stopBubble(e) {
+        if (e && e.stopPropagation) {
+            e.stopPropagation();  //w3c
+        } else {
+            window.event.cancelBubble = true; //IE
+        }
+    }
+</script>
 </body>
 </html>

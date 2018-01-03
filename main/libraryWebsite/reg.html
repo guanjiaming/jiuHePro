@@ -1,9 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>中国文化中心</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>中国文化中心</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <style>
         body, html {
             width: 100%;
@@ -20,18 +21,53 @@
 
 <body>
 
-
-<div class="login_logo"><img src="images/logo_login.png" width="169" height="126" /></div>
+<div class="login_logo"><img src="images/logo_login.png" width="169" height="126"/></div>
 <div class="login_box">
-	<div class="logoin_tit"><a href="#">登录</a>  <a href="#" class="active">注册</a></div>
-    <div class="login_input"><input name="" type="text" placeholder="请输入注册邮箱" /></div>
-    <div class="login_input"><input name="" type="password" placeholder="请输入密码" /></div>
-    <div class="login_input"><input name="" type="password" placeholder="请再次输入密码" /></div>
-    <div class="login_btn"><button>注册</button></div>
-    
-    
-
+    <div class="logoin_tit"><a href="login.html">登录</a> <a href="reg.html" class="active">注册</a></div>
+    <div class="login_input"><input name="" class="emailInput" type="text" placeholder="请输入注册邮箱"/></div>
+    <div class="login_input"><input name="" class="pwdInput" type="password" placeholder="请输入密码"/></div>
+    <div class="login_input"><input name="" class="againPwdInput" type="password" placeholder="请再次输入密码"/></div>
+    <div class="login_btn">
+        <button id="register_btn">注册</button>
+    </div>
 </div>
 
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    $(function () {
+
+        // 正则验证邮箱是否正确
+        $(".emailInput").blur(function () {
+            var emailInputVal = $(this).val();
+            var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+            var isEmail = reg.test(emailInputVal);
+            if (!isEmail) {
+                $("#login_errTip").fadeIn();
+            } else {
+                $("#login_errTip").fadeOut();
+            }
+        });
+
+        //  登录
+        $("#register_btn").click(function () {
+            var emailVal = $(".emailInput").val();
+            var pwdVal = $(".pwdInput").val();
+            var againVal = $(".againPwdInput").val();
+
+            // 输入的内容是否为空
+            if (emailVal == '' || pwdVal == '' || againVal == '') {
+                alert("邮箱和密码不能为空");
+            }
+            // 两次密码是否一样
+            else if (pwdVal != againVal) {
+                alert("两次输入的密码不一样");
+            } else {
+                alert("账号：" + emailVal + "密码：" + pwdVal + "再次密码：" + againVal);
+            }
+
+        });
+    })
+</script>
 </body>
 </html>
